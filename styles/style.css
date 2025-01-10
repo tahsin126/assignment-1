@@ -4,7 +4,9 @@
    
 }
 /* header section style */
-
+body{
+    background-color: rgb(253, 252, 250);
+}
 header .nav-sec{
     width: 1180px;
    display: flex;
@@ -13,7 +15,10 @@ header .nav-sec{
    
 
 }
-.all-btn{
+
+.all-btn:hover{
+    border:1px solid gray;
+    box-shadow: 5px 5px 5px 5px #201717;
     cursor: pointer;
 }
 .nav-sec h2{
@@ -22,7 +27,6 @@ header .nav-sec{
     font-family: sans-serif;
 }
 header .primary-btn{
-    color: rgb(0, 106, 80);
     
     width: 100px;
     height: 35px;
@@ -143,6 +147,7 @@ line-height: 20px;
 letter-spacing: 0%;
 text-align: left;
 }
+
 .vision .box1-btn{
     background-color: rgba(84, 144, 245);
     color: rgb(255, 255, 255);
@@ -237,7 +242,7 @@ border-radius: 4px;
 
 .quote{
     background-image: url('../assets/quote-bg.png');
-    background-color: rgb(254, 254, 253);
+    background-color: rgb(255, 255, 255);
     background-position: top left;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -402,6 +407,7 @@ text-align: center;
   text-align: center;
 }
 .letter{
+    
     border-radius: 15px;
     background-color: rgb(198, 228, 214);
     width: 1180px;
@@ -431,8 +437,11 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
 }
+.letter .mail{
+    
+}
 .letter input{
-    flex:1;
+    
     padding: 10px 15px;
     border: none;
     border-radius: 10px 0 0 10px;
