@@ -1,7 +1,7 @@
 
 *{
     margin: 10px 10px 10px 10px;
-    
+   
 }
 /* header section style */
 
@@ -277,7 +277,17 @@ text-align: left;
 .news{
     margin-top: 30px;
     width: 1180px;
+    justify-content: center;
     
+}
+.news .title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
 }
 .news .box{
     display: flex;
@@ -305,7 +315,7 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 }
-.news .newsbtn{
+.news .newsbtn , .donate .newsbtn{
     border-radius: 5px;
 background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
@@ -323,4 +333,71 @@ height: 40px;
 }
 .news .box .photo img{
     border-radius: 16px;
+}
+.donate{
+    
+    width: 1180px;
+    padding-right: 50px;
+    justify-content: center;
+    
+}
+.donate .title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate .description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate .boxs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.donate .boxs p{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 180px;
+    height: 70px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    padding-top: 16px;
+}
+.donate .boxs .twoo{
+    background: rgb(198, 228, 214);
+}
+.donate .inpu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.donate input{
+    width: 600px;
+   padding: 15px;
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   background: rgb(255, 255, 255);
+   border-radius: 8px 0px 0px 8px;
+  text-align: center;
 }
